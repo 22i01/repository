@@ -20,7 +20,11 @@ body {
 }
 .card__header {
   display: flex;
-  padding: 20px 0 0 15px;
+  padding: 20px 0 5px 15px;
+}
+.card__header h3 {
+  font-size: 18px;
+  font-weight: 200;
 }
 .card__header img {
   height: 50px;
@@ -37,12 +41,16 @@ body {
   font-size: 14px;
 }
 
-span {
+/* span {
   display: inline-block;
   margin: 0;
   padding: 0;
   border-top: 2px solid rgb(59, 59, 61);
   width: 100%;
+} */
+hr {
+  border-top: 2px solid rgb(59, 59, 61);
+  border-bottom: none;
 }
 
 .card__header-name p {
@@ -50,7 +58,7 @@ span {
   bottom: 5%;
 }
 .card__main {
-  padding: 10px 0 0 15px;
+  padding: 10px 0 10px 15px;
   font-size: 16px;
 }
 .card__footer {
@@ -59,8 +67,8 @@ span {
 }
 
 .card__footer img {
-  width: 17px;
-  height: 17px;
+  width: 14px;
+  height: 14px;
   color: rgb(21, 98, 170);
 }
 
@@ -68,7 +76,8 @@ span {
   color: #1562aa;
   text-decoration: none;
   transition: 0.4s ease;
-  font-weight: 600;
+  font-size: 15px;
+  font-weight: 500;
 }
 
 .card__footer a:hover {
